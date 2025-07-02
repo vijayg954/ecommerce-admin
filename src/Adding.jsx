@@ -1,8 +1,10 @@
+/* eslint-disable react/prop-types */
 import { useState } from "react";
 import { assets } from "./assets/assets";
 import { backendUrl } from "./App";
 import axios from "axios";
 import { toast } from "react-toastify";
+
 
 const Adding = ({token}) => {
   const [image1, setImage1] = useState(false);
